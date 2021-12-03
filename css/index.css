@@ -83,11 +83,79 @@ body{
     display: block;
     padding: 26px 10px 38px;
     color: #333; 
+    margin: 2px;
 }
+
 .header .site-list a:hover{
     color: #ff6700;
 }
-.header .site-search{
-    float: right;
+
+.header .site-list .site-category {
+    position: relative;
+}
+.header .site-list .site-category .category-list{
+    position: absolute;
+    width: 234px;
+    height: 460px;
+    background-color: rgb(0,0,0,0.6);
+    left: -92px;
 }
 
+
+
+.header .site-search{
+    float: right;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.header .site-search form{
+    position: relative;
+    width: 300px;
+    height: 50px;
+}
+
+.header .site-search form .search-text{
+    width: 223px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    float: left;
+    padding: 0 10px;
+}
+.header .site-search form .search-btn{
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-left: -1px;
+}
+
+.header .site-search form .search-word{
+    position: absolute;
+    top: 16px;
+    font-size: 12px;
+    right: 65px;
+}
+
+.header .site-search form .search-word a{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0 5px;
+    background-color: #eee;
+    font-color: #757575; 
+}
+
+.header .site-search form .search-word a:hover{
+   background: #ff6700;
+   color: #fff; 
+}
+
+/* 导航栏*/
+.site-content .site-slider a{
+    display: block;
+    width: 1227px;
+}
+.site-content .site-slider a img{
+    width: 1227px;
+}
